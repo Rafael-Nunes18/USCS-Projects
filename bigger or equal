@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int number1;
+    int number2;
+    printf("type a one value for number 1:");
+    scanf("%d",&number1);
+    printf("type a one value for number 2:");
+    scanf("%d",&number2);
+    if(number1>number2)
+    printf("number 1 is the biggest!");
+    else if(number2>number1)
+    printf("number 2 is the biggest!");
+    else
+    printf("number 1 and number 2 are equals");
+
+    return 0;
+}
