@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main()
+{
+    float grade1;
+    float grade2;
+    float grade3;
+    float grade4;
+    float mean;
+    
+    printf("type a value for grade 1:");
+    scanf("%f",&grade1);
+    printf("type a value for grade 2:");
+    scanf("%f",&grade2);
+    printf("type a value for grade3:");
+    scanf("%f",&grade3);
+    printf("type a value for grade4:");
+    scanf("%f",&grade4);
+    mean = (grade1+grade2+grade3+grade4)/4;
+    if(mean >= 6)
+    printf("approved");
+    else
+    printf("failed");
+    
+
+    return 0;
+}
